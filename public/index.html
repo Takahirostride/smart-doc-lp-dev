@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>脳ドックを手軽に。予防医療で人々を幸せに | スマート脳ドック</title>
+	<link rel="icon" href="/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" href="android-touch-icon.png" sizes="192x192">
+	<!-- css 呼出 -->
+    <link rel="stylesheet" href="css/app.css">
+</head>
+
+<body>
+    <header class="header__smartDocLp sticky-content">
+        <nav class="navbar navbar-expand-lg navbar-light">
+			<!-- ヘッダーロゴ -->
+            <a class="navbar-brand" href="#">
+				<img src="./svg/brand-logo.svg" class="brand-logo-svg"></img>
+			</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+				<ul class="navbar-nav justify-content-around designunit__navbarLink">
+					<li class="cnav-item nav-item text-center">
+						<a class="cnav-link nav-link" href="#"><span class="menu-name">TOP <span class="sr-only">(current)</span></span></a>
+					</li>
+					<li class="cnav-item nav-item text-center">
+						<a class="cnav-link nav-link" href="#content__reservationflow"><span class="menu-name">予約から診断の流れ</span></a>
+					</li>
+					<li class="cnav-item nav-item text-center">
+						<a class="cnav-link nav-link" href="#content__aboutSmartDoc"><span class="menu-name">スマート脳ドックについて</span></a>
+					</li>
+					<li class="cnav-item nav-item text-center">
+						<a class="cnav-link nav-link" href="#content__chargemenu"><span class="menu-name">診断メニュー＆料金</span></a>
+					</li>
+					<!-- ヘッダー拡張要素 --
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Dropdown link
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+							<a class="dropdown-item" href="#">Action</a>
+							<a class="dropdown-item" href="#">Another action</a>
+							<a class="dropdown-item" href="#">Something else here</a>
+						</div>
+					</li> -->
+				</ul>
+				<div class="d-flex justify-content-center my-5 my-lg-auto">
+					<a href="https://medicalcheckstudio.jp/login/" class="link-origin d-inline-block">
+						<button class="button-smdc-login btn px-2 text-center text-nowrap mr-4">
+							<img src="./svg/icon-mypage-smdc.svg" class="button-login-svg" alt="">
+							マイページ
+						</button>
+					</a>
+					<a href="https://medicalcheckstudio.jp/reserve/day_select/" class="link-origin d-inline-block">
+						<button class="button-smdc-reserve btn px-2 text-center text-nowrap">
+							<img src="./svg/icon-reserve-smdc.svg" class="button-reserve-svg" alt="">
+							脳ドックを予約
+						</button>
+					</a>
+				</div>
+			</div>
+		</nav>
+    </header>
+
+    <main class="main page__smartDocLp">
+		<!-- first view -->
+        <div class="firstview__message">
+            <h1 class="designunit__title py-3">脳ドックを手軽に。<br><span class="ml-3 ml-md-4">予防医療で人々を幸せに。</span></h1>
+        </div>
+		<div class="firstview__sp__top d-sm-none">
+			<div class="content__sp__catchCopy d-flex">
+				<img src="./svg/catchcopy-sub-second-1.svg" class="catchCopy-image-svg img-fluid"></img>
+				<ul class="list__catchCopy pl-3 pt-3">
+					<li class="list_1 pb-3">ネットで予約</li>
+					<li class="list_2 pb-3">来院 ～ お帰りまで30分</li>
+					<li class="list_3">検査結果はスマホに届く</li>
+				</ul>
+			</div>
+		</div>
+		<div class="firstview__top d-none d-sm-block">
+			<div class="card designunit__card__fv text-center d-none d-sm-block px-3 py-4">
+				<div class="card-image-area">
+					<img src="./svg/catchcopy-sub.svg" alt="" class="img-fluid d-none d-lg-block">
+					<img src="./svg/catchcopy-sub-white.svg" alt="" class="img-fluid d-lg-none">
+				</div>
+				<div class="d-none d-lg-flex mx-auto">
+					<div class="designunit__catchcopy__fv mr-3">
+						<p>予約が簡単</p>
+						<p>こちらのサイトで<br>予約完了</p>
+					</div>
+					<div class="designunit__catchcopy__fv mr-3">
+						<p>継続しやすい価格</p>
+						<p>脳ドック１回料金<br class="d-none d-md-inline">17,500円<small>（税別）</small></p>
+					</div>
+					<div class="designunit__catchcopy__fv">
+						<p>忙しい方に最適</p>
+						<p>30分以内の<br>脳ドック</p>
+					</div>
+				</div>
+				<div class="d-none d-lg-block">
+					<p class="text-center font-weight-bold">※ 自費診療となります。</p>
+				</div>
+
+				<a href="https://medicalcheckstudio.jp/about" class="link-origin d-inline-block" target="_blank">
+					<button class="designunit__detailLinkBtn btn-block">
+						スマート脳ドックを詳しく見る<br>（外部サイト：MCS東京銀座クリニック）
+					</button>
+				</a>
+			</div>
+				<div class="d-none">
+					<!-- SNS関連リンク -->
+					<div class="sns-links-area mx-auto mb-5">
+						<ul class="neuo-list-box">
+							<li class="neuo-list">
+								<a target="_blank" href="https://youtu.be/mpnU9Htt5NA">
+									<label class="neuo-label">
+										<div class="neuo-icon-box">
+											<img src="./svg/social-youtube-white.svg" alt="" class="img-fluid sns-links-svg">
+										</div>
+									</label>
+								</a>
+							</li>
+							<li class="neuo-list">
+								<a target="_blank" href="https://www.facebook.com/pages/%E3%83%A1%E3%83%87%E3%82%A3%E3%82%AB%E3%83%AB%E3%83%81%E3%82%A7%E3%83%83%E3%82%AF%E3%82%B9%E3%82%BF%E3%82%B8%E3%82%AA-%E3%82%B9%E3%83%9E%E3%83%BC%E3%83%88%E8%84%B3%E3%83%89%E3%83%83%E3%82%AF/2012703018987101">
+									<label class="neuo-label">
+										<div class="neuo-icon-box">
+											<img src="./svg/social-facebook-white.svg" alt="" class="img-fluid sns-links-svg">
+										</div>
+									</label>
+								</a>
+							</li>
+							<li class="neuo-list">
+								<a target="_blank" href="https://twitter.com/hashtag/%E3%83%A1%E3%83%87%E3%82%A3%E3%82%AB%E3%83%AB%E3%83%81%E3%82%A7%E3%83%83%E3%82%AF%E3%82%B9%E3%82%BF%E3%82%B8%E3%82%AA">
+									<label class="neuo-label">
+										<div class="neuo-icon-box">
+											<img src="./svg/social-twitter-white.svg" alt="" class="img-fluid sns-links-svg">
+										</div>
+									</label>
+								</a>
+							</li>
+							<li class="neuo-list">
+								<a target="_blank" href="https://www.instagram.com/explore/locations/2012703018987101/">
+									<label class="neuo-label">
+										<div class="neuo-icon-box">
+											<img src="./svg/social-instagram-white.svg" alt="" class="img-fluid sns-links-svg">
+										</div>
+									</label>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<!-- //SNS関連リンク -->
+				</div>
+		</div><!-- /.firstview__top -->
+		<!-- //first view -->
+
+        <div class="container cmb-5">
+			<h2 class="designunit__topic__ClinicLink py-3 my-3 text-center">福岡でスマート脳ドックが<br class="d-sm-none">受診出来るクリニック</h2>
+			<!-- クリニックへのリンク -->
+			<div class="text-center">
+				<a href="https://medicalcheckstudio.jp/reserve/day_select?clinic_id=2" class="d-inline-block mb-3">
+					<div class="designunit__clinicLinkBtn d-sm-none mb-2">
+						<img src="./svg/banner-clinic-maeda-sp.svg" alt="" class="img-fluid button__moist">
+					</div>
+					<div class="designunit__clinicLinkBtn d-none d-sm-block px-4 py-2">
+						<img src="./svg/banner-clinic-maeda.svg" alt="" class="img-fluid">
+					</div>
+				</a>
+				<a href="https://medicalcheckstudio.jp/reserve/day_select?clinic_id=3" class="d-inline-block mb-3">
+					<div class="designunit__clinicLinkBtn d-sm-none mb-2">
+						<img src="./svg/banner-clinic-hashiguchi-sp.svg" alt="" class="img-fluid button__moist">
+					</div>
+					<div class="designunit__clinicLinkBtn d-none d-sm-block px-4 py-2">
+						<img src="./svg/banner-clinic-hashiguchi.svg" alt="" class="img-fluid">
+					</div>
+				</a>
+				<a href="https://medicalcheckstudio.jp/reserve/day_select?clinic_id=4" class="d-inline-block mb-3">
+					<div class="designunit__clinicLinkBtn d-sm-none mb-2">
+						<img src="./svg/banner-clinic-kurotuchi-sp.svg" alt="" class="img-fluid button__moist">
+					</div>
+					<div class="designunit__clinicLinkBtn d-none d-sm-block px-4 py-2">
+						<img src="./svg/banner-clinic-kurotuchi.svg" alt="" class="img-fluid">
+					</div>
+				</a>
+			</div>
+			<!-- //クリニックへのリンク -->
+		</div><!---/.container --->
+
+		<div class="container">
+			<div class="row">
+				<!-- content-スマートドックとは -->
+				<div class="col-12 mt-5 cmb-5">
+					<section class="content__sp__whatIsSmartDoc d-lg-none px-2 py-5">
+						<div class="text-center">
+							<h2 class="designunit__topic text-center">スマート脳ドックについて</h2>
+						</div>
+						<div class="onlyls-image-area d-sm-none p-4">
+							<img src="./images/mri-smdc-view.jpg" class="view-brainimage-blue img-fluid" alt="">
+						</div>
+						<div class="designunit__meritSmartDocFrame text-center p-2 mb-3">
+							<p class="m-0"><span class="designunit__subtopic__blue">予約が簡単</span><br>こちらのサイトで予約完了</p>
+						</div>
+						<div class="designunit__meritSmartDocFrame text-center p-2 mb-3">
+							<p class="m-0"><span class="designunit__subtopic__blue">継続しやすい価格</span><br>
+								脳ドック 1回料金<br><span class="designunit__price"> 17,500</span>円（税別）<br>
+								※自費診療となります。</p>
+						</div>
+						<div class="designunit__meritSmartDocFrame text-center p-2">
+							<p class="m-0"><span class="designunit__subtopic__blue">忙しい方に最適</span><br>30分以内の脳ドック</p>
+						</div>
+						<h4 class="designunit__subtopic mt-5 pb-3 text-center">スマート脳ドックがおすすめの理由</h4>
+						<ul class="list__recommendReason px-4 pb-5">
+							<li class="pb-3">専門医師２人によるダブルチェック体制
+								とAIサポート（研究開発中）により見
+								逃しを防ぎます。</li>
+							<li class="pb-3">万が一病気が見つかった場合は、経過
+								観察及び専門病院の紹介などそれぞれ
+								の状況に応じた対応を実施いたします。</li>
+							<li class="pb-3">マイページ機能で予約管理、検査結果を
+								PC・スマホで確認、継続することで過去
+								の検査履歴も管理。</li>
+							<li>家族の脳ドック予約も出来る機能を提
+								供、お父さん、お母さん、奥様、ご家族の
+								健康管理に最適、マイページでファミリー
+								登録が出来ます。</li>
+						</ul>
+						<div class="text-center">
+							<a href="https://medicalcheckstudio.jp/about" class="link-origin d-inline-block" target="_blank">
+								<button class="designunit__detailLinkBtn d-block text-center mx-auto">
+									スマート脳ドックを詳しく見る<br>（外部サイト：MCS東京銀座クリニック）
+								</button>
+							</a>
+						</div>
+					</section>
+					<section class="content__whatIsSmartDoc d-none d-lg-block pt-5">
+						<div class="text-center mb-5">
+							<h2 class="designunit__topic">スマート脳ドックがおすすめの理由</h2>
+						</div>
+						<div class="row">
+							<div class="col-md-6">
+								<div class="designunit__contentBox mb-3">
+									<p class="v-centering">専門医師２人によるダブルチェック体制とAIサポート（研究開発中）により見逃しを防ぎます。</p>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="designunit__contentBox mb-3">
+									<p class="v-centering">万が一病気が見つかった場合は、経過観察及び専門病院の紹介などそれぞれの状況に応じた対応を実施いたします。</p>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="designunit__contentBox mb-3">
+									<p class="v-centering">マイページ機能で予約管理、検査結果をPC・スマホで確認、継続することで過去の検査履歴も管理。</p>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="designunit__contentBox mb-3">
+									<p class="v-centering">家族の脳ドック予約も出来る機能を提供、お父さん、お母さん、奥様、ご家族の健康管理に最適、マイページでファミリー登録が出来ます。</p>
+								</div>
+							</div>
+						</div><!---/.row--->
+					</section>
+				</div>
+				<!-- //content-スマートドックとは -->
+	
+				<!-- 予約から診断の流れ -->
+				<div class="col-12 pt-5">
+					<section class="content__reservationFlow cpt-scroll" id="content__reservationflow" name="content__reservationflow">
+						<div class="text-center mb-5">
+							<h2 class="designunit__topic text-center">予約から診断の流れ</h2>
+						</div>
+	
+						<div class="designunit__flowBox flowBox__1 mb-5 px-3 py-5">
+							<div class="row">
+								<div class="col-md-4">
+									<div class="vborder__brand">
+										<h4 class="font-weight-bold text-center pb-3">ご予約</h4>
+										<p class="text-center">
+											<span class="designunit__timeRequired mb-2">所要時間 約 10分</span>
+										</p>
+									</div>
+								</div>
+								<div class="col-md-8">
+									<ol class="pl-4">
+										<li class="pb-3 pl-2">検診場所を選ぶ</li>
+										<li class="pb-3 pl-2">日時を選ぶ<br>
+											<span>（月〜金 9:00〜20:00 / 土・日 10:00 ～	19:00 / 祝日:休診 / ３ヶ月先まで予約可）</span></li>
+										<li class="pb-3 pl-2">ご登録（お客様の情報をご入力下さい）<br>
+											<span class="color__notice">※ ID ・ パスワードは忘れないようにお願いします。</span><br>
+											<span class="color__notice">※ マイページログイン、予約確認、検査結果の確認に必要です。</span></li>
+										<li class="pb-3 pl-2">脳ドック受診者確定（本人 ・ ご家族）、問診票入力</li>
+										<li class="pb-3 pl-2">お支払い（当日現金でのお支払い）</li>
+									</ol>
+								</div>
+							</div>
+						</div>
+	
+						<div class="designunit__flowBox flowBox__2 mb-5 px-3 py-5">
+							<div class="row">
+								<div class="col-md-4">
+									<div class="vborder__brand d-frex flex-column align-items-center">
+										<h4 class="font-weight-bold text-center pb-3">脳ドック受診</h4>
+										<p class="text-center">
+											<span class="designunit__timeRequired mb-2">所要時間 約 30分</span><br>
+										</p>
+										<p class="color__notice text-left">※当日、予約したお時間の10分前にはお越し下さい。</p>
+									</div>
+								</div>
+								<div class="col-md-8">
+									<ol class="pl-4">
+										<li class="pb-3 pl-2">受付<br>
+											<span class="color__notice">※ 本人確認のため必ず身分証（保険証、運転免許証など）をお持ちください。</span>
+										</li>
+										<li class="pb-3 pl-2">お着替え<br>
+											<ul class="pt-3 pl-3 line-break-any list-style-disc">
+												<li class="pb-3"> お着替えはありません。</li>
+												<li class="pb-3">コート、ジャケットを脱いでいただき、金属類、携帯、時計、クレジットカード等を更衣室に置いてきて下さい。</li>
+												<li class="pb-3">MRIは電磁波を発生しますので、金属系のものは撮影に影響を及ぼします。</li>
+												<li class="pb-3">またクリニックとしましては、電子機器等の持ち込みが無いように最終チェックを行いますが、もし何かあってもクリニックは責任を取ることが出来ませんのでご了承下さい。</li>
+											</ul>
+										<li class="pb-3 pl-2">検査 約 10分（頭部MRI、頭部MRA、頸部MRA）</li>
+										<li class="pb-3 pl-2">お着替え</li>
+										<li class="pb-3 pl-2">受付にてお支払い
+											<ul class="pt-3 pl-3 line-break-any list-style-disc">
+												<li class="pb-3">事前決済がお済の方は領収書をお受け取り下さい。</li>
+												<li class="pb-3">お済でない方は現金もしくはカードでお支払い下さい。</li>
+											</ul>
+										</li>
+									</ol>
+								</div>
+							</div>
+						</div>
+	
+						<div class="designunit__flowBox flowBox__3 mb-5 px-3 py-5">
+							<div class="row">
+								<div class="col-md-4">
+									<div class="vborder__brand">
+										<h4 class="font-weight-bold text-center pb-3">検査結果</h4>
+									</div>
+								</div>
+								<div class="col-md-8">
+									<ol class="pl-4">
+										<li class="pb-3 pl-2">1週間以内に検査結果をマイページからご確認いただけます。（メールで通知します）</li>
+										<li class="pb-3 pl-2">検査結果により、所見が見当たらない方は終了となります。来年（ 1年に 1回）の検査をお勧めします。
+											所見があった場合は、医師との面談をご予約していただき、来院時に所見の説明後、検査もしくは専門医への紹介をします。）</li>
+									</ol>
+								</div>
+							</div>
+						</div>
+	
+						<div class="designunit__flowBox__notify mb-5 px-3 py-5">
+							<div class="row">
+								<div class="col-md-4">
+									<div class="vborder__brand">
+										<h4 class="color__info font-weight-bold text-center pb-3">注意事項</h4>
+										<p class="color__info">※ 次のような方はMRI検診が受けられないことがあります。</p>
+									</div>
+								</div>
+								<div class="col-md-8">
+									<ol class="pl-4 line-break-any">
+										<li class="pb-3 pl-2">心臓ペースメーカ、除細動装置、人工内耳、可動式義眼、神経刺激装置、骨成長刺激装置を埋め込まれている方</li>
+										<li class="pb-3 pl-2">脳動脈瘤手術による金属クリップやコイル等が体に入っている方</li>
+										<li class="pb-3 pl-2">その他の金属があり、材質が確認できない場合</li>
+										<li class="pb-3 pl-2">眼に微細な金属片が入っている（または入っていると疑わしい方）</li>
+										<li class="pb-3 pl-2">妊娠中もしくは妊娠の可能性のある方</li>
+										<li class="pb-3 pl-2"> 1ヶ月以内にアートメーク（アイライン・眉毛）をされた方</li>
+									</ol>
+								</div>
+							</div>
+						</div>
+					</section>
+				</div>
+				<!-- //予約から診断の流れ -->
+	
+				<!-- 予約コンバージョン -->
+				<div class="col-12 mt-5 cmb-5">
+					<h3 class="designunit__subtopic pb-5 text-center">こちらから簡単に予約が完了します。<br>
+						あとは当日ドック受診をするだけ。</h3>
+					<div class="text-center">
+						<a href="https://medicalcheckstudio.jp/reserve/day_select/" class="link-origin button__conversion__mech">
+							<button class="designunit__conversionBtn btn-block">
+								<img src="./svg/icon-icm-carender.svg" width="50" height="50" class="pb-2 pr-3" alt="">脳ドックを予約
+							</button>
+						</a>
+					</div>
+					<p class="color__info text-md-center py-5">
+						※ スマート脳ドックのご予約はWEBからのみとなりますが、WEBのご操作が難しい場合は、お電話にてご連絡ください。
+					</p>
+				</div>
+				<!-- //予約コンバージョン -->
+			</div><!-- /.row -->
+		</div><!-- /.container -->
+
+		<!-- スマート脳ドックについて -->
+		<section  class="content__aboutSmartDoc cpt-scroll" id="content__aboutSmartDoc" name="content__aboutSmartDoc">
+			<div class="designunit__aboutSmartDoc__a cmb-5">
+				<div class="container">
+					<div class="row">
+						<div class="col-12 mb-5">
+							<div class="text-center">
+								<h2 class="designunit__topic">スマート脳ドックについて</h2>
+							</div>
+						</div>
+						<div class="col-md-10 offset-md-1 mb-3">
+							<h3 class="designunit__subtopic pb-3">ご存知ですか？<br class="d-sm-none">あなたの脳卒中リスク</h3>
+								<p>脳卒中など脳の病気はある日突然発症しますが、発症するまで自覚症状がないのが一般的で、後遺症として麻痺などの障害が残る場合も少なくありません。<br><br>
+									脳の病気は発症してからの治療では手遅れになることが多いため、発症前の予防が何より重要です。<br><br>
+									そして発症してしまった場合でも、できる限り早期に治療を開始することが重要です。<br><br>
+									医療技術向上により脳血管疾患の死亡率は低下傾向ですが、介護が必要となる要因として脳血管疾患が最も高い割合を占めています。
+									（脳血管の病気は日本人の死因の 3位 ※1、要介護になる原因の 1位 ※2）<br><br>年齢が高くなるほど何らかの脳の異常発見率が高まっており、 30～40代では約 3割、20代でも約 2割の異常が発見されています。
+								</p>
+						</div>
+						<div class="col-md-6 offset-md-6 mb-5">
+							<img src="./svg/graph-irregular-ditection-smdc.svg" alt="" class="img-fluid">
+						</div>
+						<div class="col-md-6">
+							<h3 class="designunit__subtopic pb-3">肺がん・心血管病も死因上位！</h3>
+							<p>日本人の死因 第 1位の 「がん」 の中で 肺がんは死亡原因第1位 ※1<br>
+								日本人の死因 第 2位は 「心血管病」 ※1<br><br>
+								当クリニックの 「肺・心血管ドック」 受診者の約半数に何らかの異常が発見されています。<br>
+								「肺・心血管ドック」 を肺がん、心血管病の予防 ・ 早期発見 に是非お役立てください。</p>
+								<div class="px-3 py-3">
+									<img src=".//svg/graph-round-ditection-smdc.svg" alt="" class="img-fluid">
+								</div>
+							<small>
+								出展:メディカルチェックスタジオ東京銀座クリニックデータ分析:スマートスキャン株式云社<br><br>
+								※ 1 厚生労働省発表平成29年(2017)人口動態統計（確定数）の概況<br>
+								第6表 性別にみた死因順位（第10位まで）別死亡数·死亡率（人口10万対）・構成割合より<br>
+								※ 2 内閣府平成29年版扁齢社会白書より<br>
+							</small>
+						</div>
+					</div>
+				</div>
+			</div>
+	
+			<div class="designunit__aboutSmartDoc__b cmb-5">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-8 col-lg-6 offset-lg-6 mb-5">
+							<div class="bg-clear-white p-2">
+								<h3 class="designunit__subtopic pb-3">「IT × 予防医学 × 検診」</h3>
+								<p>高齢化が進む日本では、病気になってから治療を開始するという従来の考え方から、病気にならない為の健康づくりが重視されるようになってきており、当クリニックでも予防医療を強く意識しております。<br><br>
+									健康維持には、何か症状が出てから検査をするのではなく、できる限り早く検査を受診し、そこから自分自身の現状を知ることで病気を予防することが大切です。将来のリスクが何もなければその状態を維持するよう心がけ、リスクが見つかれば早期に治療を開始できますから、さらなるリスク回避に繋がります。<br><br>
+									メディカルチェックスタジオは、検査を受けやすい環境作りにこだわり、忙しい人たちのために検査時間を短縮・待たせない・検査を継続しやすいリーズナブルな価格設定、検査結果をスマホで管理できる仕組みの提供など、あらゆる便利なサービスを提供できるクリニックを目指しております。</p>
+							</div>
+						</div>
+	
+						<div class="col-md-8 col-lg-6 offset-lg-1 mb-5">
+							<div class="bg-clear-white p-2">
+								<h3 class="designunit__subtopic pb-3">専門性が高いスタッフと最新の画像診断設備</h3>
+								<p>医師、放射線技師、臨床検査技師、看護師、スタッフー丸となって、皆様の健康維持と様々な異常の早期発見をお手伝いいたします。<br><br>
+									最新システムの導入により、MRI検査時の騒音を大幅に低減し、数秒での正確な位置決めで、検査時間の短縮が実現！<br><br>
+									検査を受ける方のみならず、待合室の方にもやさしい環境を提供します。</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- /.スマート脳ドックについて -->
+
+		<div class="d-md-flex flex-md-column-reverse mt-5 cmb-5">
+			<!-- //料金表 -->
+			<section class="content__chargeMenu__pc__jumbotron cborder-brand cpt-scroll" id="content__chargemenu" name="content__chargemenu">
+				<div class="text-center mb-5">
+					<h2 class="designunit__topic">診断メニュー＆料金</h2>
+				</div>
+				<div class="content__chargeMenu__pc__cardbase">
+					<h3 class="designunit__subtopic__charge text-center p-2">基本検診</h3>
+					<h4 class="designunit__subtopic__chargeMenu text-center p-2">スマート脳ドック</h4>
+					<div class="content__chargeMenu p-3">
+						<div class="row">
+							<div class="col-12 col-sm-4">
+								<img src="./images/mri-smdc-view.jpg" class="view-brainimage-blue img-fluid d-none d-sm-block" alt="">
+							</div>
+							<div class="col-12 col-sm-8">
+								<p class="font-weight-bold">スマート脳ドックは頭部MRl·MRA・頸部MRAの診断で、脳動脈瘤、脳梗塞、そして脳腫瘍など自覚症状のない異常箇所を調べます。</p>
+								<div class="d-flex justify-content-between d-sm-none">
+									<img src="./svg/icon-brainimage-blue.svg" class="icon-brainimage-blue" alt="">
+									<p class="chargeMenu__priceSet text-right">
+										<span class="designunit__price">17,500</span>
+										<span>円</span>
+										<span class="text-nowrap">(税別)</span><br>
+										<small class="notify__price font-weight-bold">※ 自費診療となります</small>
+									</p>
+								</div>
+								<div class="row">
+									<div class="col-lg-5">
+										<p class="chargeMenu__priceSet d-none d-sm-block text-center">
+											<span class="designunit__price">17,500</span>
+											<span>円</span>
+											<span class="text-nowrap">(税別)</span><br>
+											<small class="notify__price font-weight-bold">※ 自費診療となります</small>
+										</p>
+									</div>
+									<div class="col-lg-7">
+										<p class="cborder-chargeInfo d-inline-block font-weight-bold pt-3">こんな方におすすめ</p>
+										<ul class="list__recommendation">
+											<li class="list_1 pb-2">両親や兄弟に、クモ膜下出血が発生した方</li>
+											<li class="list_2 pb-2">本人または両親、兄弟、ご親戚に心筋梗塞や狭心症、脳卒中などの病歴がある方</li>
+											<li class="list_3 pb-2">高血圧症、糖尿病などの成人病·生活習慣病の方</li>
+											<li class="list_4 pb-2">中性脂肪·尿酸・コレステロールの値が高い方</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div><!-- /.row -->
+					</div><!-- /.content__chargeMenu -->
+				</div><!-- .content__chargeMenu__pc__cardbase -->
+			</section><!-- /.content__chargeMenu__pc__jumbotron -->
+			<!-- //料金表 -->
+
+			<!-- ６つのポイント -->
+			<section class="designunit__meritSix__jumbotron py-5">
+				<div class="text-center mb-5">
+					<h2 class="designunit__topic">「スマート脳ドック」<br class="d-md-none">６つのポイント</h2>
+				</div>
+
+				<div class="designunit__meritSix__froatBox">
+					<div class="designunit__meritSixFrame p-3 mb-3">
+						<h4 class="card-title text-center p-1">継続しやすい価格</h4>
+						<div class="d-flex flex-md-column align-items-center justify-content-around">
+							<span class="card-image-area"><img src="./svg/icon-purse-white.svg" alt="" class="card-image-svg"></span>
+							<p class="card-doc m-0"><span class="emp-point">脳ドック 1回<br>17,500円（税別）</span><br>※ 自費診療<br>毎年継続して検査しやすい<br>価格設定。</p>
+						</div>
+					</div>
+					<div class="designunit__meritSixFrame p-3 mb-3">
+						<h4 class="card-title text-center p-1">予約が簡単！<br class="d-inline-block d-md-none">忙しい方に最適！</h4>
+						<div class="d-flex flex-md-column align-items-center justify-content-around">
+							<span class="card-image-area"><img src="./svg/icon-timer-white.svg" alt="" class="card-image-svg"></span>
+							<p class="card-doc m-0">簡単予約＆便利なアクセスで<br>検査は 30分以内に終了。<br>短時間の検査でリスク管理！<br><span class="emp-point">土日も受付！</span></p>
+						</div>
+					</div>
+					<div class="designunit__meritSixFrame p-3 mb-3">
+						<h4 class="card-title text-center p-1">ダブルチェックで正確</h4>
+						<div class="d-flex flex-md-column align-items-center justify-content-around">
+							<span class="card-image-area"><img src="./svg/icon-doublecheck-white.svg" alt="" class="card-image-svg"></span>
+							<p class="card-doc m-0"><span class="emp-point">専門医師２人</span>による<br>ダブルチェック体制と<br>Alサポート（研究開発中）<br>により見逃しを防ぎます。</p>
+						</div>
+					</div>
+					<div class="designunit__meritSixFrame p-3 mb-3 d-md-block d-lg-none">
+						<h4 class="card-title text-center p-1">ご家族の予約・管理</h4>
+						<div class="d-flex flex-md-column align-items-center justify-content-around">
+							<span class="card-image-area"><img src="./svg/icon-famiryplan-white.svg" alt="" class="card-image-svg"></span>
+							<p class="card-doc m-0"><span class="emp-point">ファミリー登録</span>すると<br>ご家族の予約も可能！<br>ご両親や奥様の<br>健康管理に最適です。</p>
+						</div>
+					</div>
+					<div class="designunit__meritSixFrame p-3 mb-3">
+						<h4 class="card-title text-center p-1">安心のサポート体制</h4>
+						<div class="d-flex flex-md-column align-items-center justify-content-around">
+							<span class="card-image-area"><img src="./svg/icon-safety-white.svg" alt="" class="card-image-svg"></span>
+							<p class="card-doc m-0">病気が見つかった場合は、<br>経過観察および<br><span class="emp-point">専門病院の紹介</span>など<br>状況に応じてサポート！</p>
+						</div>
+					</div>
+					<div class="designunit__meritSixFrame p-3 mb-3">
+						<h4 class="card-title text-center p-1">マイページで 結果を管理</h4>
+						<div class="d-flex flex-md-column align-items-center justify-content-around">
+							<span class="card-image-area"><img src="./svg/icon-controlpanel-white.svg" alt="" class="card-image-svg"></span>
+							<p class="card-doc m-0">過去の検査履歴、<br>予約管理と検査結果を<br><span class="emp-point">PCやスマホ</span>で<br>確認・管理が可能。</p>
+						</div>
+					</div>
+					<div class="designunit__meritSixFrame p-3 mb-3 d-md-none d-lg-block">
+						<h4 class="card-title text-center p-1">ご家族の予約・管理</h4>
+						<div class="d-flex flex-md-column align-items-center justify-content-around">
+							<span class="card-image-area"><img src="./svg/icon-famiryplan-white.svg" alt="" class="card-image-svg"></span>
+							<p class="card-doc m-0"><span class="emp-point">ファミリー登録</span>すると<br>ご家族の予約も可能！<br>ご両親や奥様の<br>健康管理に最適です。</p>
+						</div>
+					</div>
+				</div>
+			</section><!-- /.designunit__meritSixFrame__jumbotron -->
+			<!-- //６つのポイント -->
+		</div><!-- /.flexBox -->
+
+		<!-- クリニックへのリンク -->
+		<div class="container">
+			<div class="text-center">
+				<a href="https://medicalcheckstudio.jp/reserve/day_select/" class="link-origin button__conversion__mech">
+					<button class="designunit__conversionBtn btn-block">
+						<img src="./svg/icon-icm-carender.svg" width="50" height="50" class="pb-2 pr-3" alt="">脳ドックを予約
+					</button>
+				</a>
+				<div class="d-md-flex flex-md-row justify-content-center text-center py-5">
+					<a href="https://medicalcheckstudio.jp/reserve/day_select?clinic_id=2" class="d-inline-block mb-3 mr-md-3">
+						<div class="designunit__clinicLinkBtn">
+							<img src="./svg/banner-clinic-maeda-sp.svg" alt="" class="img-fluid button__moist">
+						</div>
+					</a>
+					<a href="https://medicalcheckstudio.jp/reserve/day_select?clinic_id=3" class="d-inline-block mb-3 mr-md-3">
+						<div class="designunit__clinicLinkBtn">
+							<img src="./svg/banner-clinic-hashiguchi-sp.svg" alt="" class="img-fluid button__moist">
+						</div>
+					</a>
+					<a href="https://medicalcheckstudio.jp/reserve/day_select?clinic_id=4" class="d-inline-block mb-3"">
+						<div class="designunit__clinicLinkBtn">
+							<img src="./svg/banner-clinic-kurotuchi-sp.svg" alt="" class="img-fluid button__moist">
+						</div>
+					</a>
+				</div>
+			</div>
+			<!-- //クリニックへのリンク -->
+		</div>
+	</main>
+
+    <footer class="footer__smartDocLp text-center">
+		<div class="d-none">
+			<!-- SNS関連リンク -->
+			<div class="sns-links-area d-flex justify-content-around mx-auto mb-5">
+				<a target="_blank" href="https://youtu.be/mpnU9Htt5NA">
+					<img src="./svg/social-youtube.svg" alt="" class="img-fluid sns-links-svg">
+				</a>
+				<a target="_blank" href="https://www.facebook.com/pages/%E3%83%A1%E3%83%87%E3%82%A3%E3%82%AB%E3%83%AB%E3%83%81%E3%82%A7%E3%83%83%E3%82%AF%E3%82%B9%E3%82%BF%E3%82%B8%E3%82%AA-%E3%82%B9%E3%83%9E%E3%83%BC%E3%83%88%E8%84%B3%E3%83%89%E3%83%83%E3%82%AF/2012703018987101">
+					<img src="./svg/social-facebook.svg" alt="" class="img-fluid sns-links-svg">
+				</a>
+				<a target="_blank" href="https://twitter.com/hashtag/%E3%83%A1%E3%83%87%E3%82%A3%E3%82%AB%E3%83%AB%E3%83%81%E3%82%A7%E3%83%83%E3%82%AF%E3%82%B9%E3%82%BF%E3%82%B8%E3%82%AA">
+					<img src="./svg/social-twitter.svg" alt="" class="img-fluid sns-links-svg">
+				</a>
+				<a target="_blank" href="https://www.instagram.com/explore/locations/2012703018987101/">
+					<img src="./svg/social-instagram.svg" alt="" class="img-fluid sns-links-svg">
+				</a>
+			</div>
+			<!-- //SNS関連リンク -->
+		</div>
+		<!-- フッターロゴ -->
+		<a href="#"><img src="./svg/brand-logo-footer.svg" alt="" class="footer-logo-svg"></a>
+    </footer>
+
+	<!-- js 呼出 -->
+	<script src="js/app.js"></script>
+</body>
+</html>

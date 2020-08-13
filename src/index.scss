@@ -1,0 +1,6 @@
+/* Bootstrap を読み込む */
+@import "~bootstrap/scss/bootstrap.scss";
+/* common を先に読み込む */
+@import "/public/scss/common.scss";
+@import "/public/scss/smart-scan-lp.scss";
+@import "/public/scss/ui-fiunction.scss";
