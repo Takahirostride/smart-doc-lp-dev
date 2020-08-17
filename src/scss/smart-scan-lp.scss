@@ -518,16 +518,19 @@
 }
 .designunit__meritSix__froatBox {
     @include media-breakpoint-up(md) {
-        max-width: 924px;
-        float: right;
+        padding-left: 10%;
+        float: left;
         > .designunit__meritSixFrame{
-            float: right;
+            float: left;
         }
         ::before {
             content: "";
             display: block;
             clear: both;
         }
+    }
+    @include media-breakpoint-up(lg) {
+        padding-left: 25%;
     }
 }
 .designunit__meritSixFrame {
