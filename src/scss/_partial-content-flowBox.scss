@@ -29,6 +29,13 @@
         font-weight: 600;
         padding: .5rem 1rem;
     }
+    .designunit__findings {
+        color: $color-line-lightblue;
+        border: 1px solid $color-line-lightblue;
+        border-radius: $radius-10;
+        font-size: 1rem;
+        padding: .5rem 1rem;
+    }
     .vborder__brand {
         padding: 0;
         margin: 0 0 1rem;
