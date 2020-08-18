@@ -3,15 +3,26 @@
     width: 100%;
 }
 .cnav-item {
-    @include media-breakpoint-down(md) {
-        height: 4.5rem;
+    height: 4.5rem;
+    .cnav-link {
+        position: relative;
+        height: 100%;
+        border-bottom: 1px solid $color-line-whitegray;
+        .menu-name {
+            @include v-centering;
+            height: 1rem;
+            font-size: 1.25rem;
+        }
+    }
+    @include media-breakpoint-up(md) {
+        height: auto;
         .cnav-link {
-            position: relative;
-            height: 100%;
+            height: auto;
+            border-bottom: initial;
             .menu-name {
-                @include v-centering;
-                height: 1rem;
-                font-size: 1.5rem;
+                position: relative;
+                height: auto;
+                font-size: 1rem;
             }
         }
     };
