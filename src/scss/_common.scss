@@ -1,9 +1,15 @@
 /* common CSS */
-
 @font-face {
     font-family: 'Genericons';
     src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/53819/genericons-regular-webfont.woff') format('woff'),
     url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/53819/genericons-regular-webfont.eot') format('truetype');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap');
+@mixin kosugimaru {
+    font-family: 'Kosugi Maru', sans-serif;
+    font-weight: 300;
+    font-style: normal;
 }
 @mixin shingopro {
     font-family: a-otf-ud-shin-go-pr6n, sans-serif;

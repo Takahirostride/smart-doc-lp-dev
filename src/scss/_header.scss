@@ -32,6 +32,16 @@
     z-index: 100;
     background: white;
     border-bottom: 1px solid $color-brand-blue;
+    .button__frame__header {
+        display: flex;
+        justify-content: center;
+        margin: 1rem auto;
+        width: 100%;
+        @include media-breakpoint-up(lg) {
+            margin: 0 auto;
+            width: auto;
+        };
+    }
     .button-smdc-login {
         color: $color-line-darkabyss;
         border: 1px solid $color-line-darkabyss;
